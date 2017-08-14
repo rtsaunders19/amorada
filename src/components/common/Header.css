@@ -1,0 +1,19 @@
+.App-header {
+  text-align: left;
+  display: inline-block;
+  list-style-type: none;
+}
+
+.navLink {
+  text-decoration: none;
+}
+
+.App-header li {
+  float: left;
+}
+
+@media (max-width: 600px) {
+  .side-link {
+    display: none;
+  }
+}

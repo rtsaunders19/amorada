@@ -1,0 +1,61 @@
+.homeContainer {
+  font-family: 'adobe-caslon-pro', serif;
+  color: white;
+  background: #000;
+  margin-top: 0;
+  position: absolute;
+  top: 67px;
+  width: 100%;
+}
+
+.homeBottleContent {
+  text-align: center;
+}
+
+.bottleWrapper {
+  padding-top: 3em;
+}
+
+.bottleWrapper img {
+  height: 200px;
+  width: 200px;
+}
+
+.tequilaButton {
+  font-weight: 100;
+  margin-top: 1.5em;
+  padding: 5px 20px;
+  border: 1px solid white;
+  cursor:pointer;
+  overflow: hidden;
+  background-color: Transparent;
+  background-repeat:no-repeat;
+}
+
+.homePassion {
+  text-align: center;
+  font-size: 12px;
+}
+
+.homePassion h3 {
+  font-style: italic;
+  font-size: 20px;
+  padding-bottom: 1.5em;
+}
+
+.homeMiddle {
+  height: 50px;
+  padding: 0;
+}
+
+.homeHeart {
+  text-align: center;
+  padding: 0;
+  height: 50px;
+  width: 50px;
+}
+
+.homeHeart img {
+  width: 100%;
+  height: 100%;
+}

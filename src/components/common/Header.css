@@ -1,14 +1,19 @@
 .App-header {
   text-align: left;
+  font-size: 16px;
+  font-family: 'adobe-caslon-pro', serif;
   display: inline-block;
   list-style-type: none;
-  padding-left: 0;
+  height: 67px;
   width: 100%;
+  border-bottom: 1px black solid;
+  margin: 0;
+  padding: 8px 0;
 }
 
 .navLink {
   text-decoration: none;
-    color: black;
+  color: black;
 }
 
 .App-header li {
@@ -16,50 +21,59 @@
 }
 
 .sideLink {
-  padding: 1em 3.25rem;
+  padding: 1em 5.75rem;
 }
 
 .homeLink {
-  padding: 1em 6.25rem;
+  padding: 1em 8.75rem;
 }
 
 .hamburger img {
   height: 1.5em;
   width: 1.5em;
-  margin: 0.75em 1.25rem;
+  margin: 1em 1.25rem 0 1.25rem;
   display: none;
 }
 
 @media (max-width: 1248px) {
   .sideLink {
-    padding: 1em 2.5rem;
+    padding: 1em 5rem;
   }
   .homeLink {
-    padding: 1em 6rem;
+    padding: 1em 8.5rem;
   }
 }
 
-@media (max-width: 1130px) {
+@media (max-width: 1171px) {
   .sideLink {
-    padding: 1em 1.75rem;
+    padding: 1em 4.25rem;
   }
   .homeLink {
-    padding: 1em 5.75rem;
+    padding: 1em 8.25rem;
   }
 }
 
-@media (max-width: 1007px) {
+@media (max-width: 1090px) {
   .sideLink {
-    padding: 1em 1.25rem;
+    padding: 1em 3.75rem;
   }
   .homeLink {
-    padding: 1em 5.5rem;
+    padding: 1em 8rem;
   }
 }
 
-@media (max-width: 898px) {
+@media (max-width: 1040px) {
   .sideLink {
-    padding: 1em .5em;
+    padding: 1em 2em;
+  }
+  .homeLink {
+    padding: 1em 6.75rem;
+  }
+}
+
+@media (max-width: 960px) {
+  .sideLink {
+    padding: 1em 1.25em;
   }
   .homeLink {
     padding: 1em 5.25rem;

@@ -32,6 +32,7 @@ class App extends Component {
         <div id="mySidenav" className="sidenav" style={style}>
 	         <a href="javascript:void(0)" className="closebtn" onClick={this.closeNav.bind(this)}>&times;</a>
            <IndexLink to="/" activeClassName="active" className="navLink" onClick={this.closeNav.bind(this)}>HOME</IndexLink>
+           <Link to="/ourtequilas" activeClassName="active" className="navLink" onClick={this.closeNav.bind(this)}>OUR TEQUILAS</Link>
 	         <Link to="/wheretofind" activeClassName="active" className="navLink" onClick={this.closeNav.bind(this)}>WHERE TO FIND</Link>
 	         <Link to="/ourprocess" activeClassName="active" className="navLink" onClick={this.closeNav.bind(this)}>OUR PROCESS</Link>
 	         <Link to="/events" activeClassName="active" className="navLink" onClick={this.closeNav.bind(this)}>EVENTS</Link>

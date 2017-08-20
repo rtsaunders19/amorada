@@ -1,0 +1,78 @@
+.whereContainer {
+  height: 740px;
+  width: 100%;
+  font-family: 'adobe-caslon-pro', serif;
+  position: absolute;
+  top: 67px;
+  background-color: black;
+}
+
+.headContainer {
+  text-align: center;
+  width: 20rem;
+  height: 6em;
+  margin: 0 auto;
+  padding-top: 2em;
+}
+
+.headContainer h1 {
+  text-align: center;
+  font-size: 25px;
+  margin: 0;
+  width: 20rem;
+  color: white;
+}
+
+.boxContainer {
+
+}
+
+.events, .nearYou, .login {
+  width: 15rem;
+  height: 10em;
+  background-color: #c0c0c0;
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 3.5em;
+  border-radius: 2.5px;
+  border: 1px black solid;
+}
+
+.icon {
+  height: 30px;
+  width: 30px;
+  padding: 0;
+  margin: 0;
+}
+
+.icon img {
+  height: 100%;
+  width: 100%;
+}
+
+.iconMiddle {
+  padding: 0;
+  height: 30px;
+}
+
+.leftBox div, .rightBox div {
+  padding-top: 25%;
+  border-bottom: white 1px solid;
+}
+
+.rightBox {
+  width: 55px;
+}
+
+.nearYou {
+  padding-top: .5em;
+}
+
+.nearForm {
+  margin-top: 4.25em;
+}
+
+.nearForm input {
+  text-align: center;
+  width: 60%;
+}

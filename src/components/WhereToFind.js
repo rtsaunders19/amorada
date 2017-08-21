@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Box from './common/Box';
 import heart from '../images/heart.png';
 import './WhereToFind.css';
 
@@ -10,31 +11,24 @@ class WhereToFind extends Component {
           <h1>WHERE TO FIND</h1>
         </div>
         <div className="boxContainer">
-          <div className="nearYou">
-            <p>NEAR YOU</p>
-            <div className="iconMiddle col-xs-12">
-              <div className="leftBox col-xs-5">
-                <div></div>
-              </div>
-              <div className="icon col-xs-2">
-                <img src={heart} alt="heart" />
-              </div>
-              <div className="rightBox col-xs-5">
-                <div></div>
-              </div>
-            </div>
-            <div className="nearForm">
-              <form>
-                <input type="text" />
-              </form>
-            </div>
-          </div>
-          <div className="events">
-
-          </div>
-          <div className="login">
-
-          </div>
+          <Box
+            header="NEAR YOU"
+            button={false}
+            image='https://cdn4.iconfinder.com/data/icons/pictype-free-vector-icons/16/location-alt-512.png'
+            placeholder="enter ZIP"
+          />
+          <Box
+            header="TASTINGS & EVENTS"
+            button={true}
+            image='http://www.iconarchive.com/download/i97414/iconsmind/outline/Wine-Bottle.ico'
+            buttonText="SEE ALL"
+          />
+          <Box
+            header="CUSTOMER LOGIN"
+            button={true}
+            image='http://simpleicon.com/wp-content/uploads/Shopping-Cart-11.png'
+            buttonText="LOGIN"
+          />
         </div>
       </div>
     );

@@ -10,7 +10,7 @@ class Home extends Component {
         <div className="homeTop">
           <div className="homeBottleContent">
             <div className="bottleWrapper">
-              <img src={bottles} alt="tequila" />
+              <img src='https://pbs.twimg.com/media/C2jZoIHUkAIM-RX.jpg' alt="tequila" />
             </div>
             <button className="tequilaButton">OUR TEQUILAS</button>
           </div>
@@ -22,16 +22,12 @@ class Home extends Component {
             </div>
           </div>
         </div>
-        <div className="homeMiddle col-xs-12 col-md-12 col-lg-12">
-          <div className="leftBox col-xs-5 col-md-5 col-lg-5">
-            <div></div>
-          </div>
-          <div className="homeHeart col-xs-2 col-md-2 col-lg-2">
+        <div className="homeMiddle">
+          <hr className="hrleft"/>
+          <div className="homeHeart col-xs-2">
             <img src={heart} alt="heart" />
           </div>
-          <div className="rightBox col-xs-5 col-md-5 col-lg-5">
-            <div></div>
-          </div>
+          <hr />
         </div>
         <div className="homeBottom">
           <h1>OUR STORY</h1>

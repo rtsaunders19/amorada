@@ -23,26 +23,13 @@
   color: white;
 }
 
-.boxContainer {
-
-}
-
-.events, .nearYou, .login {
-  width: 15rem;
-  height: 10em;
-  background-color: #c0c0c0;
-  text-align: center;
-  margin: 0 auto;
-  margin-bottom: 3.5em;
-  border-radius: 2.5px;
-  border: 1px black solid;
+.leftLine {
+  margin-left: 2.95rem;
 }
 
 .icon {
   height: 30px;
   width: 30px;
-  padding: 0;
-  margin: 0;
 }
 
 .icon img {
@@ -53,19 +40,6 @@
 .iconMiddle {
   padding: 0;
   height: 30px;
-}
-
-.leftBox div, .rightBox div {
-  padding-top: 25%;
-  border-bottom: #a0a0a0 1px solid;
-}
-
-.rightBox {
-  width: 55px;
-}
-
-.nearYou {
-  padding-top: .5em;
 }
 
 .nearForm {

@@ -32,19 +32,20 @@ render() {
     marginTop: '0.9em',
     fontSize: '12px'
   }
+  let line = {
+    width: '20%',
+    float: 'left',
+    marginTop: '15px'
+  }
   return (
   <div style={boxContainerStyle}>
     <p style={headerStyle}>{this.props.header}</p>
       <div className="iconMiddle col-xs-12">
-        <div className="leftBox col-xs-5">
-          <div></div>
-        </div>
+        <hr style={line} className="leftLine"/>
         <div className="icon col-xs-2">
           <img src={this.props.image} alt="img" />
         </div>
-        <div className="rightBox col-xs-5">
-          <div></div>
-        </div>
+        <hr style={line} />
       </div>
      <div className="nearForm">
         {this.buttonOrForm()}

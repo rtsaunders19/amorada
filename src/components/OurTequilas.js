@@ -1,15 +1,16 @@
 import React, { Component } from 'react';
+import './OurTequilas.css'
 
 class OurTequilas extends Component {
   render() {
     return (
-      <div className="OurTequilasContainer">
+      <div className="ourTequilasContainer">
         <div className="ourHeader">
           <h1>OUR TEQUILAS</h1>
         </div>
-        <div className="blancoHeader">
-          <hr className="hrleft"/>
-          <div className="col-xs-2">
+        <div className="ourBottleHeader">
+          <hr className="lineleft" />
+          <div className="label col-xs-2">
             <h1>Blanco</h1>
           </div>
           <hr />
@@ -18,9 +19,9 @@ class OurTequilas extends Component {
           <img src="#" alt="blanco" />
           <button>VIEW BLANCO</button>
         </div>
-        <div className="repoadoHeader">
-          <hr className="hrleft"/>
-          <div className="col-xs-2">
+        <div className="ourBottleHeader">
+          <hr className="lineleft" />
+          <div className="label col-xs-2">
             <h1>Repoado</h1>
           </div>
           <hr />
@@ -29,9 +30,9 @@ class OurTequilas extends Component {
           <img src="#" alt="reposado" />
           <button>VIEW REPOSADO</button>
         </div>
-        <div className="anejoHeader">
-          <hr className="hrleft"/>
-          <div className="col-xs-2">
+        <div className="ourBottleHeader">
+          <hr className="lineleft" />
+          <div className="label col-xs-2">
             <h1>Anejo</h1>
           </div>
           <hr />

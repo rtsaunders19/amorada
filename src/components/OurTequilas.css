@@ -1,0 +1,58 @@
+.ourTequilasContainer {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 67px;
+  background-color: black;
+  color: white;
+  font-family: 'adobe-caslon-pro', serif;
+}
+
+.ourHeader {
+  text-align: center;
+  width: 20rem;
+  height: 6em;
+  margin: 0 auto;
+  padding-top: 2em;
+}
+
+.ourHeader h1 {
+  text-align: center;
+  font-size: 25px;
+  margin: 0;
+  width: 20rem;
+  color: white;
+}
+
+
+
+.ourBottleHeader {
+  height: 50px;
+  text-align: center;
+}
+
+.ourBottleHeader hr {
+  width: 30%;
+  float: left;
+  margin-top: 25px;
+}
+
+.lineleft {
+  margin-left: 6%;
+}
+
+.ourBottleHeader .label {
+    text-align: center;
+    height: 50px;
+    width: 10rem;
+    padding: 0;
+}
+
+.ourBottleHeader h1 {
+  text-align: center;
+  padding-top: .75em;
+  margin: 0;
+  clear: left;
+  clear: right;
+  font-size: 20px;
+}

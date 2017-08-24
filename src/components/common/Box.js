@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import '../WhereToFind.css';
 
 class Box extends Component {
   constructor(props) {
@@ -8,11 +7,20 @@ class Box extends Component {
 
 buttonOrForm() {
   if (this.props.button) {
-    return <button>{this.props.buttonText}</button>
+    return <button style={{
+      height: '20px',
+      width: '59%',
+      fontSize: '10px',
+      border: '1px black solid',
+      textAlign: 'center'}}>{this.props.buttonText}</button>
   }
     return (
       <form>
-        <input type="text" placeholder={this.props.placeholder}/>
+        <input style={{
+          textAlign: 'center',
+          width: '59%',
+          height: '20px',
+          border: '1px solid black'}} type="text" placeholder={this.props.placeholder}/>
       </form>
     )
 }
@@ -37,17 +45,37 @@ render() {
     float: 'left',
     marginTop: '15px'
   }
+  let nearForm = {
+    marginTop: '4.25em'
+  }
+  let iconMiddle = {
+    padding: '0',
+    height: '30px'
+  }
+  let icon = {
+    height: '30px',
+    width: '30px'
+  }
+  let img = {
+    height: '100%',
+    width: '100%'
+  }
   return (
   <div style={boxContainerStyle}>
     <p style={headerStyle}>{this.props.header}</p>
-      <div className="iconMiddle col-xs-12">
-        <hr style={line} className="leftLine"/>
-        <div className="icon col-xs-2">
-          <img src={this.props.image} alt="img" />
+      <div style={iconMiddle} className="col-xs-12">
+        <hr
+          style={{
+            marginLeft: '2.95rem', width: '20%',
+            float: 'left',
+            marginTop: '15px'}}
+        />
+        <div style={icon} className="col-xs-2">
+          <img style={img} src={this.props.image} alt="img" />
         </div>
         <hr style={line} />
       </div>
-     <div className="nearForm">
+     <div style={nearForm}>
         {this.buttonOrForm()}
      </div>
   </div>

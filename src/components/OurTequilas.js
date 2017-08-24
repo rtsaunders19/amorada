@@ -15,20 +15,20 @@ class OurTequilas extends Component {
           </div>
           <hr />
         </div>
-        <div className="blancoContainer">
-          <img src="#" alt="blanco" />
+        <div className="tequilaContainer">
+          <img src="http://amoradatequila.com/wp-content/uploads/2017/05/blanco.png" alt="blanco" />
           <button>VIEW BLANCO</button>
         </div>
         <div className="ourBottleHeader">
           <hr className="lineleft" />
           <div className="label col-xs-2">
-            <h1>Repoado</h1>
+            <h1>Reposado</h1>
           </div>
           <hr />
         </div>
-        <div className="resposadoContainer">
-          <img src="#" alt="reposado" />
+        <div className="middleContainer">
           <button>VIEW REPOSADO</button>
+          <img src="http://amoradatequila.com/wp-content/uploads/2017/05/blanco.png" alt="reposado" />
         </div>
         <div className="ourBottleHeader">
           <hr className="lineleft" />
@@ -37,8 +37,8 @@ class OurTequilas extends Component {
           </div>
           <hr />
         </div>
-        <div className="anejoContainer">
-          <img src="#" alt="anejo" />
+        <div className="bottomContainer">
+          <img src="http://amoradatequila.com/wp-content/uploads/2017/05/blanco.png" alt="anejo" />
           <button>VIEW ANEJO</button>
         </div>
       </div>

@@ -1,5 +1,5 @@
 .ourTequilasContainer {
-  height: 100%;
+  height: 700px;
   width: 100%;
   position: absolute;
   top: 67px;
@@ -29,6 +29,7 @@
 .ourBottleHeader {
   height: 50px;
   text-align: center;
+
 }
 
 .ourBottleHeader hr {
@@ -55,4 +56,38 @@
   clear: left;
   clear: right;
   font-size: 20px;
+}
+
+.tequilaContainer, .middleContainer, .bottomContainer {
+  margin-bottom: 1em;
+  text-align: center;
+}
+
+.tequilaContainer img, .middleContainer img, .bottomContainer img {
+  height: 100px;
+  width: 100px;
+}
+
+.tequilaContainer img {
+  margin-right: 26.5%;
+}
+
+.tequilaContainer button {
+  margin-left: -3%
+}
+
+.middleContainer img {
+  margin-left: 10%;
+}
+
+.middleContainer button {
+  margin-right: 8%;
+}
+
+.bottomContainer img {
+  margin-right: 30%;
+}
+
+.bottomContainer button {
+  margin-left: -3%;
 }

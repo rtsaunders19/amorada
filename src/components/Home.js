@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router';
 import bottles from '../images/bottles.jpg';
 import heart from '../images/heart.png';
 import './Home.css';
@@ -12,7 +13,7 @@ class Home extends Component {
             <div className="bottleWrapper">
               <img src='https://pbs.twimg.com/media/C2jZoIHUkAIM-RX.jpg' alt="tequila" />
             </div>
-            <button className="tequilaButton">OUR TEQUILAS</button>
+            <button className="tequilaButton"><Link to="/ourtequilas" activeClassName="active">OUR TEQUILAS</Link></button>
           </div>
           <div className="homePassion">
             <div className="passionContainer">

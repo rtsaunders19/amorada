@@ -1,0 +1,107 @@
+.processContainer {
+  clear: left;
+  clear: right;
+  font-family: 'adobe-caslon-pro', serif;
+  color: white;
+  background: #000;
+  margin-top: 0;
+  position: absolute;
+  top: 67px;
+  width: 100%;
+}
+
+/* Header */
+
+.heartHeader {
+  height: 75px;
+  margin-top: 1.2em;
+}
+
+.heartHeader hr {
+  width: 25%;
+  float: left;
+  margin-top: 37.5px;
+}
+
+.heartHrLeft {
+  margin-left: 12%;
+}
+
+.heartImg {
+  text-align: center;
+  padding: 0;
+  height: 75px;
+  width: 75px;
+  clear: left;
+  clear: right;
+  margin: 0 12.5px;
+}
+
+.heartImg img {
+  width: 100%;
+  height: 100%;
+}
+
+
+.ourHeaderContainer h1 {
+  text-align: center;
+  margin-top: .25em;
+  font-size: 25px;
+}
+
+.ourHeaderContainer p {
+  margin-top: 3em;
+  margin-bottom: 3em;
+  font-size: 10px;
+  margin-left: 3.25rem;
+  margin-right: 2rem;
+  font-style: italic;
+}
+
+/* Header */
+
+.ourProcessHead {
+  height: 50px;
+  text-align: center;
+}
+
+.ourProcessHead hr {
+  width: 25%;
+  float: left;
+  margin-top: 25px;
+}
+
+.lineleft {
+  margin-left: 12%;
+}
+
+.ourProcessHead .label {
+    text-align: center;
+    height: 50px;
+    width: 10rem;
+    padding: 0;
+}
+
+.ourProcessHead h1 {
+  text-align: center;
+  padding-top: .75em;
+  margin: 0;
+  clear: left;
+  clear: right;
+  font-size: 20px;
+  font-family: 'Pinyon Script', cursive;
+}
+
+.processText p {
+  font-style: italic;
+  margin-top: 3em;
+  margin-bottom: 3em;
+  font-size: 10px;
+  margin-left: 3.25rem;
+  margin-right: 2rem;
+}
+
+.last {
+  margin-bottom: 0;
+  padding-bottom: 69px;
+}
